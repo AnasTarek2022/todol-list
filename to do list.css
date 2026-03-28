@@ -1,0 +1,91 @@
+.todo-app {
+  max-width: 400px;
+  margin: 40px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px #eef;
+  padding: 32px 24px;
+  background: #fff;
+}
+
+.todo-app h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.input-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+#todoInput {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-add {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #6366f1;
+  color: #fff;
+  cursor: pointer;
+}
+
+#todoList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.todo-item span {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.todo-item span.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.btn-edit {
+  margin-right: 8px;
+  padding: 2px 8px;
+  background: #ffd700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  padding: 2px 8px;
+  background: #f87171;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-clear {
+  background: #ec4899;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="to do list.css">
+
+</head>
+<body>
+<div class="todo-app">
+  <h2>TO DO List</h2>
+  <div class="input-container">
+    <input type="text" id="todoInput" placeholder="Add a task..."/>
+    <button onclick="addTask()" class="btn-add">Add</button>
+  </div>
+  <ul id="todoList"></ul>
+  <div class="controls-container">
+    <span id="pendingCount"></span>
+    <button onclick="clearCompleted()" class="btn-clear">Clear Completed</button>
+  </div>
+</div>
+<script defer src="to do list.js"></script>
+
+</body>
+</html>

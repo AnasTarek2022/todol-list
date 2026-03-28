@@ -89,3 +89,7 @@
   padding: 4px 10px;
   cursor: pointer;
 }
+
+body {
+  background: linear-gradient(140deg, #6366f1, #8a8bda, #eef);
+}
